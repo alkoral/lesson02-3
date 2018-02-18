@@ -1,0 +1,86 @@
+html, body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+	background-color: #EFF2FB;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: center;
+}
+
+article {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+	width: 550px;	
+}
+
+section {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+	width: auto;
+	padding: 0 20px 20px;
+	background-color: white;
+	border: 1px solid blue;
+}
+
+legend {
+	text-transform: uppercase;
+	color: #2E2EFE;
+}
+
+nav {
+	padding: 5px;
+	background-color: #2E2EFE;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav ul {
+	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 30%;
+  	box-sizing: border-box;	
+}
+
+nav ul li:nth-child(2) {
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	width: 32%;
+}
+
+nav a {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+section ul li {
+	line-height: 20px;
+}
+
+section ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+section ul li a:hover {
+	text-decoration: none;
+	color: blue;
+}
